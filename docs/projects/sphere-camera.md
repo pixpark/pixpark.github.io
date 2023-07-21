@@ -4,8 +4,8 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: "PixPark"
-  text: "Tools for audio and video"
+  name: "SphereCam"
+  text: "Sphere camera like google camera"
   tagline: Welcome to contribute code and suggestions
   image:
     src: /home.png
@@ -20,17 +20,17 @@ hero:
 
 features:
   - icon: 💡
-    title: GPUPixel
+    title: Sphere Camera
     details: Video and image processing library like GPUImage support iOS | macOS | Android
     link: https://github.com/pixpark/gpupixel
     linkText: Source code
   - icon: 💡
-    title: SphereCamera
+    title: Sphere Image Generate
     details: Pano Camera like google camera for Android.
     link: https://github.com/pixpark/sphere-camera
     linkText: Source code
   - icon: 💡
-    title: AlitaPlayer
+    title: Sphere Image Player
     details: Yet another video player, support iOS | Android | macOS | Win
     link: https://github.com/pixpark/alita-player
     linkText: Source code

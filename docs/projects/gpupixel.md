@@ -4,8 +4,8 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: "PixPark"
-  text: "Tools for audio and video"
+  name: "GPUPixel"
+  text: "video and image process libs"
   tagline: Welcome to contribute code and suggestions
   image:
     src: /home.png
@@ -13,24 +13,24 @@ hero:
   actions:
     - theme: brand
       text: Docs
-      link: /docs
+      link: /docs/gpupixel/start
     - theme: alt
       text: Github
-      link: https://github.com/pixpark
+      link: https://github.com/pixpark/gpupixel
 
 features:
   - icon: 💡
-    title: GPUPixel
+    title: 美颜
     details: Video and image processing library like GPUImage support iOS | macOS | Android
     link: https://github.com/pixpark/gpupixel
     linkText: Source code
   - icon: 💡
-    title: SphereCamera
+    title: 特效
     details: Pano Camera like google camera for Android.
     link: https://github.com/pixpark/sphere-camera
     linkText: Source code
   - icon: 💡
-    title: AlitaPlayer
+    title: 滤镜
     details: Yet another video player, support iOS | Android | macOS | Win
     link: https://github.com/pixpark/alita-player
     linkText: Source code
