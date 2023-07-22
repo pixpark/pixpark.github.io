@@ -37,5 +37,5 @@ export const nav: DefaultTheme.Config['nav'] = [
     ],
     activeMatch: '^/docs'
   },
-  { text: '博客', link: '/blog/index', activeMatch: '^/blog' }
+  { text: '博客', link: '/blog/', activeMatch: '^/blog' }
 ]

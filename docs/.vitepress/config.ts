@@ -3,8 +3,9 @@ import { head, nav, sidebar } from './configs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "PixPark",
-  description: "Real-time audio and video processing toolset for developers",
+  title: "config",
+  description: "default config",
+  outDir: '../dist',
   // lang: 'en-US',
   lang: 'zh',
   head,
