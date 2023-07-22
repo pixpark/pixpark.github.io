@@ -5,17 +5,18 @@ import { head, nav, sidebar } from './configs'
 export default defineConfig({
   title: "PixPark",
   description: "Real-time audio and video processing toolset for developers",
-  lang: 'en-US',
+  // lang: 'en-US',
+  lang: 'zh',
   head,
   // base: '/pixpark/',
 
   themeConfig: {
-    siteTitle: 'PixPark',
-    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     i18nRouting: true,
+    siteTitle: 'PixPark',
+    logo: '/logo.png',
+    // nav and sidebar
     nav,
-
     sidebar,
 
     socialLinks: [

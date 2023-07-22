@@ -8,7 +8,7 @@ hero:
   text: "video and image process libs"
   tagline: Welcome to contribute code and suggestions
   image:
-    src: /home.png
+    src: /book.svg
     alt: PixPark
   actions:
     - theme: brand

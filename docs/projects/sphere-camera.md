@@ -8,7 +8,7 @@ hero:
   text: "Sphere camera like google camera"
   tagline: Welcome to contribute code and suggestions
   image:
-    src: /home.png
+    src: /book.svg
     alt: PixPark
   actions:
     - theme: brand
