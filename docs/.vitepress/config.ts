@@ -5,9 +5,7 @@ import { head, nav, sidebar } from './configs'
 export default defineConfig({
   title: "config",
   description: "default config",
-  outDir: '../dist',
-  // lang: 'en-US',
-  lang: 'zh',
+  lang: 'en-US',
   head,
 
   themeConfig: {
