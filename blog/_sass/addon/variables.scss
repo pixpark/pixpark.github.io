@@ -4,12 +4,12 @@
 
 /* sidebar */
 
-$sidebar-width: 260px !default; /* the basic width */
-$sidebar-width-large: 300px !default; /* screen width: >= 1650px */
+$sidebar-width: 0px !default; /* the basic width */
+$sidebar-width-large: 0px !default; /* screen width: >= 1650px */
 
 /* other framework sizes */
 
-$topbar-height: 3rem !default;
+$topbar-height: 4rem !default;
 $search-max-width: 210px !default;
 $footer-height: 5rem !default;
 $footer-height-mobile: 6rem !default; /* screen width: < 850px */

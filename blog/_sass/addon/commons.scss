@@ -905,6 +905,7 @@ $btn-mb: 0.5rem;
 #topbar-wrapper {
   height: $topbar-height;
   background-color: var(--topbar-bg);
+  border-bottom: 1px solid var(--search-wrapper-border-color);
 }
 
 #topbar {
