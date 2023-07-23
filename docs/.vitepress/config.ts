@@ -9,7 +9,6 @@ export default defineConfig({
   // lang: 'en-US',
   lang: 'zh',
   head,
-  // base: '/pixpark/',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
