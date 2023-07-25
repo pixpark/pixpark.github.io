@@ -25,7 +25,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   ],
   '/docs/sphere-camera': [
     {
-      text: 'KKK',
+      text: '简介',
       collapsed: false,
       items: [
         { text: 'eee', link: '/docs/sphere-camera/start' },
@@ -33,7 +33,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ]
     },
     {
-      text: 'BBB',
+      text: '编译',
       collapsed: false,
       items: [
         { text: 'jjj', link: '/fe/html/' },
@@ -43,34 +43,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     {
       text: 'iiii成',
       link: '/fe/coding/'
-    }
-  ],
-  '/projects/': [
-    {
-      text: '工具库',
-      // collapsed: false,
-      items: [
-        { text: 'gpupixel', link: '/projects/gpupixel/start' },
-        { text: 'sphere-camera', link: '/projects/sphere-camera/start' }
-      ]
-    }
-  ],
-  '/blog/': [
-    {
-      text: '2023年',
-      // collapsed: false,
-      items: [
-        { text: 'Post-1', link: '/projects/gpupixel/start' },
-        { text: 'Post-2', link: '/projects/sphere-camera/start' }
-      ]
-    },
-    {
-      text: '2022年',
-      // collapsed: false,
-      items: [
-        { text: 'Post-1', link: '/projects/gpupixel/start' },
-        { text: 'Post-2', link: '/projects/sphere-camera/start' }
-      ]
     }
   ]
 }

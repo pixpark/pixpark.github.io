@@ -1,4 +1,7 @@
 {
+  "name" : "pixpark-website",
+  "version": "0.1.1",
+  "license": "MIT",
   "devDependencies": {
     "@mdit-vue/shared": "^0.12.0",
     "sass": "^1.64.0",

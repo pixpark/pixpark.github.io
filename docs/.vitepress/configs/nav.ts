@@ -23,17 +23,12 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '文档',
     items: [
       {
-        text: '美颜特效库',
+        text: 'SDK',
         items: [
           { text: 'GPUPixel', link: '/docs/gpupixel/start' },
-        ]
-      },
-      {
-        text: '全景相机',
-        items: [
           { text: 'SphereCam', link: '/docs/sphere-camera/start' },
         ]
-      }
+      },
     ],
     activeMatch: '^/docs'
   },

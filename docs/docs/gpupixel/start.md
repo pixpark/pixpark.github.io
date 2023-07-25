@@ -61,6 +61,37 @@ if (host_cpu == "x64") {
 }
 ```
 
+## TODO
+- [x] 123
+ 
+
+## Code Group
+::: code-group
+
+```js [config.js]
+/**
+ * @type {import('vitepress').UserConfig}
+ */
+const config = {
+  // ...
+}
+
+export default config
+```
+
+```ts [config.ts]
+import type { UserConfig } from 'vitepress'
+
+const config: UserConfig = {
+  // ...
+}
+
+export default config
+```
+
+:::
+
+
 修改`third_party/ijar/BUILD.gn` 添加 `|| is_apple` 判断
 
 ```make
@@ -81,7 +112,7 @@ llvm-objcopy
 
 到
 
-```basha
+```bash
 third_party/llvm-build/Release+Asserts/bin
 
 ```
@@ -89,7 +120,7 @@ third_party/llvm-build/Release+Asserts/bin
 若报错`CalledProcessError`  
 注掉 `build/android/gyp/util/build_utils.py`
 
-```gn
+```shell
 raise CalledProcessError(cwd, args, MSG.format(stream_string))
 
 ```
