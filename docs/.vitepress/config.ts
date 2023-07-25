@@ -7,7 +7,11 @@ export default defineConfig({
   description: "default config",
   lang: 'en-US',
   head,
-
+  markdown: {
+    config: (md) => {
+      md.use(require('markdown-it-task-lists'))
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     i18nRouting: true,
@@ -16,7 +20,6 @@ export default defineConfig({
     // nav and sidebar
     nav,
     sidebar,
-
     socialLinks: [
       { icon: 'twitter', link: 'https://twitter.com/PixParkOSS' },
       { icon: 'youtube', link: 'https://www.youtube.com/@pixpark' },
