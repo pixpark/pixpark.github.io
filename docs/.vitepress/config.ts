@@ -4,7 +4,7 @@ import { head, nav, sidebar } from './configs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "PixPark",
-  description: "default config",
+  description: "PixPark WebSite",
   lang: 'en-US',
   head,
   markdown: {
