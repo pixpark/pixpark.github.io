@@ -7,17 +7,17 @@ export const nav: DefaultTheme.Config['nav'] = [
       {
         text: '美颜特效库',
         items: [
-          { text: 'GPUPixel', link: 'projects/gpupixel' }
+          { text: 'GPUPixel', link: 'page/gpupixel' }
         ]
       },
       {
         text: '全景相机',
         items: [
-          { text: 'SphereCam', link: 'projects/sphere-camera' }
+          { text: 'SphereCam', link: 'page/sphere-camera' }
         ]
       },
     ],
-    activeMatch: '^/projects'
+    activeMatch: '^/page'
   },
   {
     text: '文档',
@@ -32,5 +32,5 @@ export const nav: DefaultTheme.Config['nav'] = [
     ],
     activeMatch: '^/docs'
   },
-  { text: '博客', link: '/blog/', activeMatch: '^/blog' }
+  { text: '博客', link: '/blog/index', activeMatch: '^/blog' }
 ]

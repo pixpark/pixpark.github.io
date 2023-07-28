@@ -21,7 +21,6 @@ export default defineConfig({
     nav,
     sidebar,
     socialLinks: [
-      { icon: 'twitter', link: 'https://twitter.com/PixParkOSS' },
       { icon: 'youtube', link: 'https://www.youtube.com/@pixpark' },
       { icon: 'github', link: 'https://github.com/pixpark' }
     ],

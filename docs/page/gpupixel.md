@@ -4,33 +4,33 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: "SphereCam"
-  text: "Sphere camera like google camera"
+  name: "GPUPixel"
+  text: "video and image process libs"
   tagline: Welcome to contribute code and suggestions
   image:
-    src: /book.svg
+    src: /video_call.svg
     alt: PixPark
   actions:
     - theme: brand
       text: Docs
-      link: /docs
+      link: /docs/gpupixel/start
     - theme: alt
       text: Github
-      link: https://github.com/pixpark
+      link: https://github.com/pixpark/gpupixel
 
 features:
   - icon: 💡
-    title: Sphere Camera
+    title: 美颜
     details: Video and image processing library like GPUImage support iOS | macOS | Android
     link: https://github.com/pixpark/gpupixel
     linkText: Source code
   - icon: 💡
-    title: Sphere Image Generate
+    title: 特效
     details: Pano Camera like google camera for Android.
     link: https://github.com/pixpark/sphere-camera
     linkText: Source code
   - icon: 💡
-    title: Sphere Image Player
+    title: 滤镜
     details: Yet another video player, support iOS | Android | macOS | Win
     link: https://github.com/pixpark/alita-player
     linkText: Source code
