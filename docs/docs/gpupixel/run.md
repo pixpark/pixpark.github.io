@@ -193,7 +193,7 @@ Chunk Basic header格式有3种:
 
 格式1：
 
-```objectivec
+```cpp
    0 1 2 3 4 5 6 7
   +-+-+-+-+-+-+-+-+
   |fmt|   cs id   |
