@@ -4,3 +4,4 @@ node_modules/
 docs/.vitepress/cache/
 dist/
 blog/_site/
+.DS_Store
