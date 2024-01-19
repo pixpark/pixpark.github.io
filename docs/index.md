@@ -1,54 +1,25 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-layoutClass: 'm-home-layout'
 
 hero:
-  name: "PixPark"
-  text: "Tools for audio and video"
-  tagline: Welcome to contribute code and suggestions
-  image:
-    src: /book.svg
-    alt: PixPark
+  name: "Open PixPark"
+  text: "Open Source "
+  tagline: My great project tagline
   actions:
     - theme: brand
-      text: Docs
-      link: /docs
+      text: Markdown Examples
+      link: /markdown-examples
     - theme: alt
-      text: Github
-      link: https://github.com/pixpark
+      text: API Examples
+      link: /api-examples
 
 features:
-  - icon: 💡
-    title: GPUPixel
-    details: Video and image processing library like GPUImage support iOS | macOS | Android
-    link: https://github.com/pixpark/gpupixel
-    linkText: Source code
-  - icon: 💡
-    title: SphereCamera
-    details: Pano Camera like google camera for Android.
-    link: https://github.com/pixpark/sphere-camera
-    linkText: Source code
-  - icon: 💡
-    title: AlitaPlayer
-    details: Yet another video player, support iOS | Android | macOS | Win
-    link: https://github.com/pixpark/alita-player
-    linkText: Source code
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-<style>
-.m-home-layout .image-src:hover {
-  transform: translate(-50%, -50%) rotate(666turn);
-  transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
-}
-
-.m-home-layout .details small {
-  opacity: 0.8;
-}
-
-.m-home-layout .item:last-child .details {
-  display: flex;
-  justify-content: flex-end;
-  align-items: end;
-}
-</style>
